@@ -1,6 +1,6 @@
 <template>
 
-    <header >
+    <header id="authorizedHeader" style="display: none">
         <div class="header-left"> <img src="../assets/logo.png" alt="logo" style="margin-left: 20px" > </div>
         <div align="left">
             <ul class="hr">
@@ -30,8 +30,9 @@
         /* background-color: #009999;*/
     }
     ul.hr{
-        margin: 0; /* Обнуляем значение отступов */
+        /* Обнуляем значение отступов */
         padding: 4px; /* Значение полей */
+        margin: 130px 0 0;
         text-align: left;
 
     }

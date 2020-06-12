@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header id="nonAuthorizedHeader">
         <div class="header-left"> <img src="../assets/logo.png" alt="logo" style="margin-left: 20px" > </div>
         <div>
             <br>
